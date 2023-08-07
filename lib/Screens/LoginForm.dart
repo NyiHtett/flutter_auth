@@ -7,7 +7,7 @@ class LoginForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Good work hub'),
+        title: Text('Login page'),
       ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
@@ -18,7 +18,7 @@ class LoginForm extends StatelessWidget {
               children: [
                 SizedBox(height: 50,),
                 Text(
-                  'Greeting page',
+                  'Good work hub',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.purple,
@@ -26,7 +26,9 @@ class LoginForm extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 50,),
-                Image.asset(""),
+                Image.asset(
+                  "assets/images/Logo.png",
+                ),
               ],
             ),
           ),
